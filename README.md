@@ -12,14 +12,14 @@ $ ./autologin.sh
 2. Terus pas di Login Page Wifi.id nya  Inspect Element > Network 
 3. Saat ngisi Username dan passwordnya klik Login 
 3. Liat Proses Network Pas ada proses check_login Terus > Copy as cURL (BASH) 
-4. Download Script di https://github.com/mrismanaziz/wifi-id/
+4. Download Script di https://github.com/aruladam/wifi-id/
 5. Isikan U&P Akun wifi.id u di Parameter 'username=UserWifiLO&password=PassWifiLO&landURL='
 6. Run Script na di Gitbash / Terminal / Termux 
 7. DONE 
 NB : Script Bash ini Hanya untuk Penggunaan Client, Kegunaan nya biar ngga Login Manual, Jadi tinggal Jalanin script ini jadi langsung connect ke @wifi.id-nya.
 
 # [ How To Use Script Auto Login in Mikrotik ? ]
-1. Download Dulu Scriptnya Di https://github.com/mrismanaziz/wifi-id
+1. Download Dulu Scriptnya Di https://github.com/aruladam/wifi-id
 2. Terus Tinggal Ganti di Bagian :
 - Username dan Password Akun Wifi.id / Wifi.id WMS 
 - gw_id=
