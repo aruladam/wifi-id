@@ -4,7 +4,7 @@ while :
 do
 date
 
-status=$(curl -s --connect-timeout 10 https://risman.now.sh/status.txt)
+status=$(curl -s --connect-timeout 10 https://adam.now.sh/status.txt)
 echo $status;
 
 if [ "$status" = 'Auto Login Wifi.id' ]
